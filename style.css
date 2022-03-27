@@ -1,0 +1,164 @@
+*{
+    padding: 0%;
+    text-decoration: none;
+    margin: 0%;
+    list-style: none;
+    box-sizing: border-box;
+}
+.logo{
+    position: absolute;
+    left: 10px;
+    top: 5px;
+    
+
+}
+
+body{
+    font-family: Roboto;
+    background-color: #EFEDED;
+}
+
+nav{
+    background-color: #FFFFFF;
+    width: auto;
+    height: auto;
+
+
+}
+
+label.hrd{
+    color: #CE8585;
+    line-height: 80px;
+    padding: 0 105px;
+    font-size: 18px;
+}
+
+nav ul{
+    float: right;
+    margin-right: 250px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 25px;
+
+}
+
+nav ul  li a {
+    color: #616161;
+    font-size: 20px;
+    font-weight: 400;   
+    text-transform: uppercase;
+}
+
+a:hover{
+    color: #CE8585;
+}
+
+.login{
+    
+    position: absolute;
+    width: 1000px;
+    height: 600px;
+    left: 265px;
+    top: 100px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+
+}
+
+.image1{
+    position: absolute;
+    width: 506px;
+    height: 600px;
+    left: 494px;
+    top: 0px;
+    background: linear-gradient(180deg, #C87070 0%, rgba(196, 196, 196, 0) 100%);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 0px 15px 15px 0px;
+}
+.logo2{
+    position: absolute;
+    padding: 28px 15px;
+
+}
+.login h1{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    padding: 50px 120px;
+    color: #CE8585;
+
+}
+
+.textbox{
+    width: 500px;
+    padding: 0px 120px;
+    border: none;
+}
+
+
+input {
+    width: 100%;
+    padding: 0 55px;
+    border: none;
+    border-bottom: 1px solid #CE8585;
+}
+#click{
+    text-decoration: underline;
+    color: #CE8585;
+}
+
+input,
+input::-webkit-input-placeholder {
+    font-size: 20px;
+    line-height: 2;
+    color: black;
+    text-align: center;
+}
+
+.forpass{
+    padding: 0 120px;
+    font-size: 17px;
+}
+
+
+.logbutt{
+    position: absolute;
+    width: 210px;
+    height: 55px;
+    left: 125px;
+    top: 335px;
+    
+    background: linear-gradient(180deg, #CB7C7C 0%, rgba(225, 147, 147, 0.828125) 17.19%, rgba(242, 125, 125, 0) 100%);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 15px;
+    
+}
+
+.or{
+
+    position: absolute;
+    width: 21px;
+    height: 23px;
+    left: 225px;
+    top: 400px;
+    font-size: 20px;
+
+}
+
+.signbutt{
+    position: absolute;
+    width: 210px;
+    height: 55px;
+    left: 125px;
+    top: 430px;
+
+    background: linear-gradient(180deg, #CB7C7C 0%, rgba(242, 125, 125, 0) 100%);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 15px;
+
+}
+
